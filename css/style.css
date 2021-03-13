@@ -1,0 +1,93 @@
+body {
+    box-sizing: border-box;
+    margin: 0;      
+    font-family:'Raleway', sans-serif;
+}
+
+.banner{
+    background: url(../img/gabrielacoutinhoimg.png) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 20rem;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.banner__titulo {
+    font-size: 5rem;
+}
+
+.banner__subtitulo {
+    font-size: 2.3rem;
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn_branco {
+    color: beige;
+    text-decoration: none;
+}
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;      
+}
+
+.sobre-descricao, .sobre-habilidades {
+    width: 20%;
+    text-align: justify;
+}
+
+.sobre__titulo {
+    font-size: 2rem;
+    color: #655a62;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+
+.btn-azul {
+    color:#3c5c72;    
+    text-align: left;
+    border: 1px solid #3c5c72;
+    text-decoration: none;    
+}
+
+.footer {
+    text-align: center;
+}
+
+.redes-sociais__link {
+    display: inline-block;
+    width: 20%;
+    background-color: #3c5c72;
+    padding: 2rem 1rem;
+    margin: 5rem 2rem 5rem auto;
+    text-align: center;
+    color: white;
+    border-radius: 4rem;
+}
+
+.redes-sociais__img, .redes-sociais__titulo {
+    margin-bottom: .5rem;
+}
+
+.footer__copy-texto {
+    color: #c4c4c4;
+    font-weight: lighter;
+    margin-top: 3rem;    
+    padding: 1rem;
+}
